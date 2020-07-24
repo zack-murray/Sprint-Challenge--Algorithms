@@ -95,7 +95,6 @@ class SortingRobot:
     def sort(self):
         """
         Sort the robot's list.
-        Basically implementing a bubble sort.
         """
         # List start is far left
         while self.can_move_right():
